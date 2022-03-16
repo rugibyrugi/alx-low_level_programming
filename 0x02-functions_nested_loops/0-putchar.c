@@ -6,14 +6,14 @@
  */
 int main (void)
 {
-	char c;
-	c [8] = "_putchar";
-	int a = 0;
-	while (a < 8)
-	{ 
-		_putchar (c[a]);
-		a++;
-	}
-	_putchar ('\ln');
+        _putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
